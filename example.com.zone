@@ -1,0 +1,13 @@
+$TTL 10M
+@   IN    SOA    ns1.example.com    admin.example.com. (
+        0       ; serial
+        1D      ; refresh
+        1H      ; retry
+        1W      ; expire
+        3H )    ; minimum
+
+@    IN    NS   ns1.example.com.
+
+ns1        A    10.227.89.58
+
+www        A    10.227.89.58
